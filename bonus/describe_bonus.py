@@ -1,6 +1,6 @@
 import sys
 import numpy as np
-from ft_statistics import ft_statistics
+from ft_statistics_bonus import ft_statistics_bonus
 import pandas as pd
 
 

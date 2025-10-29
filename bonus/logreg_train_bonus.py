@@ -3,7 +3,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 import sys
-from load_csv import load
+from load_csv_bonus import load
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -162,8 +162,8 @@ def main():
             plt.show()
 
         np.savetxt('weights_gd.txt', weights_all_gd)
-        np.savetxt('weights_sto.txt', weights_all_sto)
-        np.savetxt('weights_minb.txt', weights_all_minb)
+        np.savetxt('weights_sto.txt', weights_all_sgd)
+        np.savetxt('weights_minb.txt', weights_all_minib)
 
     except Exception as e:
         print(f"{type(e).__name__}: {e}")

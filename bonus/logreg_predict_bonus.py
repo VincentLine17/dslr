@@ -2,7 +2,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 import sys
-from load_csv import load
+from load_csv_bonus import load
 import numpy as np
 import pandas as pd
 

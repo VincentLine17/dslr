@@ -1,7 +1,7 @@
 import seaborn
 import matplotlib.pyplot as plt
 import pandas as pd
-from load_csv import load
+from load_csv_bonus import load
 
 try:
     data = load("dataset_train.csv")
